@@ -1,0 +1,84 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Login Form */
+
+.container {
+  height: 100vh;
+  background: url("../img/login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  height: 80vh;
+  width: 33vw;
+  background: #fff;
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 3px 4px 8px #444;
+  flex-direction: column;
+}
+
+.pic {
+  height: 26vh;
+  width: 26vh;
+  margin: 0 auto;
+  margin-top: 7vh;
+  border-radius: 50%;
+  background: url("../img/user.png");
+  background-position: center;
+  background-size: cover;
+  border: 4px solid #fff;
+  box-shadow: 3px 4px 6px #aaa;
+  margin-bottom: 3vh;
+}
+
+.login input {
+  height: 7vh;
+  background: #eee;
+  border: none;
+  border-radius: 3px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3vh;
+  padding: 0 15px;
+}
+
+.login a {
+  color: #0084ff;
+  margin-top: 2vh;
+  margin-left: 18%;
+}
+
+.login button {
+  margin: 0 auto;
+  background: linear-gradient(to right, #ae00ff, #ff7300);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  margin-top: 4vh;
+  font-size: 16px;
+  margin-bottom: 8vh;
+}
+
+.login button:hover {
+  font-size: 18px;
+}

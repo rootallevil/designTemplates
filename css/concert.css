@@ -1,0 +1,98 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Hero image */
+
+.container {
+  height: 100vh;
+  background: url("../img/concert.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(255, 255, 255, 0.3); */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  margin: 0;
+  text-align: center;
+  margin-top: 28vh;
+  font-size: 72px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.overlay p {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 5vh;
+}
+
+.overlay a {
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 8vh;
+}
+
+.overlay button {
+  margin: 0;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  border-radius: 100px;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.overlay button:hover {
+  background: #ff4e4a;
+  font-size: 17px;
+  color: #fff;
+}
+
+/* About */
+
+.about {
+  height: 100vh;
+  background: url("../img/concert2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 5vw;
+  background-repeat: no-repeat;
+}
+
+.overlay h2 {
+  margin: 0;
+  font-size: 54px;
+  margin-top: 32vh;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.about p {
+  margin: 0;
+  margin-top: 4vh;
+  color: #ff6664;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-weight: lighter;
+}
